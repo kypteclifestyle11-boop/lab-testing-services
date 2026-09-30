@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Testing Requirement Enquiry</title>
+    <meta name="description" content="Contact us to discuss your testing requirement, sample details, or product testing needs. Speak with our team about suitable testing coordination support." />
+    <meta property="og:title" content="Contact Us" />
+    <meta property="og:description" content="Discuss your testing requirement with our team and get guidance toward a suitable testing route." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.example.com/contact.html" />
+    <link rel="canonical" href="https://www.example.com/contact.html" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="top">
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="logo" aria-label="TestBridge Coordination home">
+          <span class="logo-mark">T</span>
+          <span class="logo-text">TestBridge</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Testing Services</a></li>
+            <li><a href="industries.html">Industries</a></li>
+            <li><a href="index.html#how-it-works">How It Works</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="contact.html#lead-form" class="btn btn-primary nav-cta">Request Testing</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero compact-hero">
+        <div class="container reveal">
+          <p class="eyebrow">Contact</p>
+          <h1>Let's Discuss Your Testing Requirement</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <div class="contact-panel reveal">
+            <div class="contact-card">
+              <h3>Reach us</h3>
+              <ul class="contact-list contact-list-plain">
+                <li><strong>Phone:</strong> <a href="tel:+919876543210">+91 98765 43210</a></li>
+                <li><strong>Email:</strong> <a href="mailto:hello@testbridgeco.com">hello@testbridgeco.com</a></li>
+                <li><strong>WhatsApp:</strong> <a href="https://wa.me/919876543210" target="_blank" rel="noreferrer">+91 98765 43210</a></li>
+                <li><strong>Address:</strong> [Business Address]</li>
+              </ul>
+            </div>
+            <div class="contact-card">
+              <h3>Business hours</h3>
+              <ul class="contact-list contact-list-plain">
+                <li>Monday – Friday: 9:00 AM – 6:00 PM</li>
+                <li>Saturday: 9:00 AM – 2:00 PM</li>
+                <li>Sunday: By appointment</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="map-panel reveal">
+            <div class="map-placeholder">
+              <span>Google Maps placeholder</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted-section" id="lead-form">
+        <div class="container form-layout">
+          <div class="section-copy reveal">
+            <p class="eyebrow">Start your enquiry</p>
+            <h2>Share your testing requirement</h2>
+            <p>
+              Tell us about the sample, product, material or testing objective you need help with. We can help assess the requirement and guide you toward suitable testing coordination.
+            </p>
+          </div>
+          <form class="lead-form reveal" data-form="contact" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <label for="contact-full-name">Full Name</label>
+                <input id="contact-full-name" name="fullName" type="text" required />
+              </div>
+              <div class="field">
+                <label for="contact-company-name">Company Name</label>
+                <input id="contact-company-name" name="companyName" type="text" />
+              </div>
+              <div class="field">
+                <label for="contact-phone">Phone Number</label>
+                <input id="contact-phone" name="phone" type="tel" required />
+              </div>
+              <div class="field">
+                <label for="contact-email">Email</label>
+                <input id="contact-email" name="email" type="email" required />
+              </div>
+              <div class="field">
+                <label for="contact-product">Product / Sample Name</label>
+                <input id="contact-product" name="productName" type="text" required />
+              </div>
+              <div class="field">
+                <label for="contact-category">Testing Category</label>
+                <select id="contact-category" name="category" required>
+                  <option value="">Select a category</option>
+                  <option>Environmental Testing</option>
+                  <option>Food &amp; Agriculture Testing</option>
+                  <option>Construction &amp; Material Testing</option>
+                  <option>Chemical Testing</option>
+                  <option>Product Testing</option>
+                  <option>Customized Testing</option>
+                </select>
+              </div>
+              <div class="field field-full">
+                <label for="contact-requirement">Testing Requirement</label>
+                <textarea id="contact-requirement" name="requirement" required></textarea>
+              </div>
+              <div class="field">
+                <label for="contact-quantity">Quantity / Sample Details</label>
+                <input id="contact-quantity" name="quantity" type="text" />
+              </div>
+              <div class="field">
+                <label for="contact-location">Location</label>
+                <input id="contact-location" name="location" type="text" />
+              </div>
+              <div class="field field-full">
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="message"></textarea>
+              </div>
+              <div class="field field-full">
+                <label for="contact-document">Upload Sample / Requirement Document (optional)</label>
+                <input id="contact-document" name="document" type="file" />
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Submit Testing Requirement</button>
+            </div>
+            <p class="form-success" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html" class="logo footer-logo" aria-label="TestBridge Coordination home">
+            <span class="logo-mark">T</span>
+            <span class="logo-text">TestBridge</span>
+          </a>
+          <p>
+            Testing service and laboratory coordination solutions for businesses, manufacturers and individuals.
+          </p>
+        </div>
+
+        <div>
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="industries.html">Industries</a></li>
+            <li><a href="index.html#how-it-works">How It Works</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <ul class="contact-list">
+            <li><a href="tel:+919876543210">Phone: +91 98765 43210</a></li>
+            <li><a href="mailto:hello@testbridgeco.com">Email: hello@testbridgeco.com</a></li>
+            <li><span>Address: [Business Address]</span></li>
+            <li><a href="https://wa.me/919876543210" target="_blank" rel="noreferrer">WhatsApp: +91 98765 43210</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Follow</h3>
+          <div class="social-links" aria-label="Social media">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="X">x</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <p>© <span id="year"></span> TestBridge Coordination. All rights reserved.</p>
+          <div class="legal-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms &amp; Conditions</a>
+            <a href="#">Disclaimer</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container disclaimer">
+        <p>
+          Testing services are carried out by appropriate third-party/partner laboratories. We coordinate testing requirements and help customers connect with suitable testing facilities. Testing availability, methodology, turnaround time and reporting are subject to the selected laboratory.
+        </p>
+      </div>
+    </footer>
+
+    <a href="#top" class="back-to-top" aria-label="Back to top">↑</a>
+    <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">WhatsApp</a>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
